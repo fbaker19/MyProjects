@@ -1,3 +1,7 @@
+    
+    /*rem - relative to the root
+    em - raltive to the parent container    
+    1rem = 16px*/
 html, 
 body{
     height: 100%;
@@ -25,9 +29,12 @@ img{
     justify-content: center;
 }
 
-.section-content{
-    padding: 5rem 0;
+
+
+.card{
+    margin: 2rem 0;
 }
+
 
 #about{
     background: url("../img/aboutMePup.jpg") center center no-repeat;
